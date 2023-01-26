@@ -1,6 +1,6 @@
 ﻿if (int.TryParse(Console.ReadLine(), out int i))
 {
-    var sum = Math.Pow(i, 2);
+    int sum = (int)Math.Pow(i, 2);
     Console.WriteLine(sum);
 }
 else
